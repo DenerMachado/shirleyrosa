@@ -1,3 +1,12 @@
 .container{
     text-align: center;
+    display: flex
+    
+}
+.container.div.ul{
+    text-align: left;
+}
+
+body.container{
+    background-color: black;
 }
