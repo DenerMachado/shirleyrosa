@@ -1,12 +1,33 @@
 .container{
     text-align: center;
-    display: flex
-    
-}
-.container.div.ul{
-    text-align: left;
+    display: flex  
 }
 
-body.container{
-    background-color: black;
+/* body{ */
+    /* background-color: black; */
+/* } */
+
+.aside{
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-box {
+    background-color: #82E0AA;
+    
+   
+padding: 10px;
 }
