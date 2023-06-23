@@ -57,6 +57,9 @@ main{
 }
 
 @media (max-width: 999px){
+    body{
+        overflow: hidden
+    };
     .nav-list{
         position: absolute;
         top: 8vh;
@@ -67,5 +70,16 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        transform: translateX(100%);
     }
 }
+
+.nav-list.active{
+    transform: translateX(0);
+}
+
+
+
+
+
+
