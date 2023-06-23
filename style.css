@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-a{
+a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
 
-a:hover{
+a:hover {
     opacity: 0.7;
 }
 
-.logo{
+.logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -29,39 +29,39 @@ nav {
 
 }
 
-main{
+main {
     background: url("mato.jpg") no-repeat
     center center;
     background-size: cover;
     height: 92vh;
 }
 
-.nav-list{
+.nav-list {
     list-style: none;
     display: flex;
 }
 
-.nav-list li{
+.nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
 }
-.mobile-menu{
+.mobile-menu {
     cursor: pointer;
     display: none;
 }
 
-.mobile-menu div{
+.mobile-menu div {
     width: 32px;
     height: 2px;    
     background: #fff;
     margin: 8px;
 }
 
-@media (max-width: 999px){
-    body{
-        overflow: hidden
-    };
-    .nav-list{
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
         position: absolute;
         top: 8vh;
         right: 0;
@@ -74,17 +74,17 @@ main{
         transform: translateX(100%);
         transition: 0.3s ease-in;
     }
-    .nav-list li{
+    .nav-list li {
         margin-left: 0;
         opacity: 0;
     }
     
-    .mobile-menu{
+    .mobile-menu {
         display: block;
     }
 }
 
-.nav-list.active{
+.nav-list.active {
     transform: translateX(0);
 }
 
