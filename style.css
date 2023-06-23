@@ -36,7 +36,36 @@ main{
     height: 92vh;
 }
 
-nav-list li{
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
+}
+.mobile-menu{
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;    
+    background: #fff;
+    margin: 8px;
+}
+
+@media (max-width: 999px){
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
